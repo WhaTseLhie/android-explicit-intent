@@ -25,7 +25,7 @@ public class NameActivity extends AppCompatActivity {
             // get the specific data
             String name = b.getString("name");
             // show the data
-            this.txtName.setText(name);
+            this.txtName.setText("Hi " +name);
         } catch(Exception e) {
             Log.d("ERROR: ", TAG);
         }
